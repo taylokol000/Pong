@@ -2,13 +2,13 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+//It calls anything that appears on the board, determines board dimensions, and manages frame rates
 public class Board extends JPanel implements ActionListener {
     final int WIDTH=800;
     final int HEIGHT=600;
 
     private final int EDGESPACE=25;
-    private final int DECORSIZE=25;
+    //private final int DECORSIZE=25;
 
     Paddle pPaddle;
     Paddle cPaddle;
